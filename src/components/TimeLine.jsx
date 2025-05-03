@@ -1,7 +1,7 @@
 // src/components/Timeline.jsx
 import { motion } from "framer-motion";
 
-const TimelineItem = ({ period, title, description, type, index }) => {
+const TimeLineItem = ({ period, title, description, type, index }) => {
   const isEven = index % 2 === 0;
   const color = type === "pros" ? "emerald" : "rose";
 
@@ -33,7 +33,7 @@ const TimelineItem = ({ period, title, description, type, index }) => {
   );
 };
 
-export default function Timeline({ items }) {
+export default function TimeLine({ items }) {
   return (
     <div className="relative py-8">
       <div className="absolute left-1/2 w-1 h-full bg-gray-200 transform -translate-x-1/2" />

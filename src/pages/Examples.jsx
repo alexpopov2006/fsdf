@@ -1,8 +1,8 @@
 // src/pages/Examples.jsx
 import { motion } from "framer-motion";
-import Timeline from "../components/Timeline";
+import TimeLine from "../components/TimeLine";
 
-const timelineData = [
+const TimeLineData = [
   {
     period: "1970-е",
     title: "Начало экодвижения",
@@ -67,7 +67,7 @@ export default function Examples() {
         Исторические вехи экологии
       </motion.h1>
 
-      <Timeline items={timelineData} />
+      <Timeline items={TimeLineData} />
 
       <motion.div
         initial={{ opacity: 0 }}
