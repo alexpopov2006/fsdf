@@ -67,7 +67,7 @@ export default function Examples() {
         Исторические вехи экологии
       </motion.h1>
 
-      <Timeline items={TimeLineData} />
+      <TimeLine items={TimeLineData} />
 
       <motion.div
         initial={{ opacity: 0 }}
