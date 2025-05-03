@@ -39,7 +39,7 @@ export default function TimeLine({ items }) {
       <div className="absolute left-1/2 w-1 h-full bg-gray-200 transform -translate-x-1/2" />
 
       {items.map((item, index) => (
-        <TimelineItem key={index} index={index} {...item} />
+        <TimeLineItem key={index} index={index} {...item} />
       ))}
     </div>
   );
